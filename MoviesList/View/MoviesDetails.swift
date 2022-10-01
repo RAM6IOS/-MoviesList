@@ -8,7 +8,7 @@
 import SwiftUI
 import Kingfisher
 
-struct MoviesDitels: View {
+struct MoviesDetails: View {
     let movies: movie
     var body: some View {
         ZStack(alignment: .bottom){

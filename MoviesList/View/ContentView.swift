@@ -17,7 +17,7 @@ struct ContentView: View {
                 if let movies = viewmodel.movies{
                     List{
                         ForEach(movies){  movie in
-                            NavigationLink(destination: MoviesDitels(movies: movie)) {
+                            NavigationLink(destination: MoviesDetails(movies: movie)) {
                                 HStack( spacing: 15){
                                 KFImage(URL(string: "https://image.tmdb.org/t/p/w500/\( movie.poster_path)")!)
                                     .resizable()

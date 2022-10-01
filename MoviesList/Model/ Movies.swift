@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Discover: Decodable {
+struct Record: Decodable {
     let results: [movie]
 }
 struct movie:  Identifiable ,Decodable {

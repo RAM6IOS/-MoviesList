@@ -16,7 +16,7 @@
 		2D54E6B928E79E03005684C3 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54E6B828E79E03005684C3 /* extension.swift */; };
 		2D54E6BE28E79F0D005684C3 /*  Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54E6BD28E79F0D005684C3 /*  Movies.swift */; };
 		2D54E6C028E79F85005684C3 /* MoviesViewModel.swif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54E6BF28E79F85005684C3 /* MoviesViewModel.swif.swift */; };
-		2D54E6C228E7A03D005684C3 /* MoviesDitels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54E6C128E7A03D005684C3 /* MoviesDitels.swift */; };
+		2D54E6C228E7A03D005684C3 /* MoviesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54E6C128E7A03D005684C3 /* MoviesDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		2D54E6B828E79E03005684C3 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		2D54E6BD28E79F0D005684C3 /*  Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Movies.swift"; sourceTree = "<group>"; };
 		2D54E6BF28E79F85005684C3 /* MoviesViewModel.swif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swif.swift; sourceTree = "<group>"; };
-		2D54E6C128E7A03D005684C3 /* MoviesDitels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDitels.swift; sourceTree = "<group>"; };
+		2D54E6C128E7A03D005684C3 /* MoviesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				2D54E6A628E79CE5005684C3 /* ContentView.swift */,
-				2D54E6C128E7A03D005684C3 /* MoviesDitels.swift */,
+				2D54E6C128E7A03D005684C3 /* MoviesDetails.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D54E6B928E79E03005684C3 /* extension.swift in Sources */,
-				2D54E6C228E7A03D005684C3 /* MoviesDitels.swift in Sources */,
+				2D54E6C228E7A03D005684C3 /* MoviesDetails.swift in Sources */,
 				2D54E6A728E79CE5005684C3 /* ContentView.swift in Sources */,
 				2D54E6A528E79CE5005684C3 /* MoviesListApp.swift in Sources */,
 				2D54E6C028E79F85005684C3 /* MoviesViewModel.swif.swift in Sources */,

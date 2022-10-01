@@ -17,9 +17,9 @@ class MovieViewModel: ObservableObject {
             }
             if let data = data {
                 do {
-                    let discover = try JSONDecoder().decode(Discover.self, from: data)
+                    let record = try JSONDecoder().decode(Record.self, from: data)
                     
-                    self.movies = discover.results
+                    self.movies = record.results
     
                 } catch (let error) {
                     print(error)
